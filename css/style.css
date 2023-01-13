@@ -1,0 +1,626 @@
+/* start navbar */
+.navbar li  a{
+    color: #fff !important;
+    
+    padding-left: 15px !important;
+  
+    font-weight: bold !important;
+    font-size: 14px ;
+line-height: 20px;
+
+}
+.navbar li  a:hover{
+    color: #009ED5 !important;
+}
+
+
+.head{
+    color: #fff !important;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.dropdown-menu li a{
+    color: #4e4e4e !important;
+
+}
+.dropdown-menu li a:hover{
+    color: #009ED5 !important;
+
+}
+
+
+
+/* end navbar */
+/* start home  */
+#HOME{
+    background-image: url(../img/intro-bg.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+
+    height: 100vh;
+   
+    font-family: 'Source Sans Pro', sans-serif  !important;
+    margin-bottom: 50px;
+    
+   
+}
+.bg-layer{
+    background-color: rgba(0,0,0,0.5);
+ height:calc(100% - 70px) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff !important;
+
+   
+}
+.home-contant h3{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+
+  
+}
+.home-contant h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+
+.home-contant h1::after{
+    content: "";
+    animation: typing  15s infinite;
+}
+@keyframes typing{
+    
+    0%{content: "  |";}
+    10%{content: "  Desi |";}
+    15%{content: " Designer |";}
+    20%{content: "  De |";}
+    25%{content: "  Devel |";}
+    30%{content: "   Developer |";}
+    40%{content: " Devel|";}
+    45%{content: " |";}
+    50%{content: "    Free|";}
+    60%{content: " Freelan|";}
+    65%{content: " Freelancer|";}
+    70%{content: "   Freelan|";}
+    75%{content: "  Free|";}
+    80%{content: " |";}
+    85%{content: " Photo|";}
+    90%{content: "  Photographer|";}
+    95%{content: "  Photogra|";}
+    100%{content: "  Ph|";}
+   
+}
+/* end home */
+/* start about */
+#ABOUT{
+
+    background-color: #F5F5F5;
+overflow: hidden;
+
+
+}
+/* start about-line */
+.about-line{
+    position: relative;
+    margin-bottom:30px;
+    margin-top: 30px;
+
+    
+}
+
+.about-line h3{
+   
+     color: #1e1e1e;
+    position: relative;
+  
+    font-size: 38px;
+    font-weight: bold;
+
+    
+}
+.about-line h4{
+
+    background-color: #0078FF;
+    width: 100px;
+    height: 3px;
+    position: absolute;
+    bottom: -40%;
+    left: 0%;
+}
+/* end about-layer */
+.about{
+    height: 70%;
+    width: 80%;
+ margin-top: 40px;
+ margin-bottom: 40px;
+ background-color: #fff;
+ border: 1px solid #F5F5F5;
+ border-radius: 10px;
+}
+/* <!-- start-about-left --> */
+/* <!-- start-about-img --> */
+.about-img{
+    margin-top: 30px;
+    
+}
+.about-img img{
+    border-radius: 5px;
+}
+.caption label{
+font-size: 20px;
+color: #1E1E1E;
+font-weight: 600;
+}
+/* <!-- end-about-img --> */
+/* start about-skills */
+.about-skills h2{
+font-weight: 600;
+font-size: 24px;
+margin-bottom: 20px;
+
+}
+.skills{
+ margin-bottom: 15px;
+      
+    }
+    .skills label{
+        color: #4e4e4e !important;
+    }
+/* start progress */
+.one{
+    width: 85%;
+}
+.two{
+    width: 75%;
+}
+.three{
+    width: 50%;
+}
+.four{
+    width: 90%;
+}
+
+.progress-bar{
+    background-color: #0078FF !important;
+}
+
+/* end progress */
+/* end about-skills */
+/* <!-- end-about-left --> */
+/* <!-- start about-contant --> */
+.about-contant h5{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+  
+}
+/* <!-- end about-contant --> */
+/* end about */
+/* start SERVICES */
+#SERVICES{
+  
+
+    background-color: #F5F5F5;
+}
+/* start services-line */
+.services-line{
+    position: relative;
+    margin-bottom:20px;
+ 
+    text-align: center;
+    padding-bottom: 30px;
+
+    
+}
+.services-line h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.services-line p{
+   
+     color: #1e1e1e;
+    position: relative;
+
+ 
+
+    
+}
+.services-line h4{
+
+    background-color: #0078FF;
+    width: 45px;
+    height: 4px;
+    position: absolute;
+ 
+    left: 48%;
+
+}
+/* end     about-layer */
+.services h6{
+    font-size: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+
+
+
+
+}
+
+.services-one{
+    width: 100%;
+display: flex;
+margin-bottom: 30px;
+text-align: center;
+border-radius: 20px;
+box-shadow: 0 13px 8px -10px rgb(0 ,0 ,0 , 10%);
+}
+.services-two{
+    width: 100%;
+display: flex;
+text-align: center;
+border-radius: 20px;
+box-shadow: 0 13px 8px -10px rgb(0 ,0 ,0 , 10%);
+}
+.services-contant{
+    background-color:#fff;
+width: 30%;
+margin-left: 20px;
+border: solid 1px #F5F5F5 ;
+border-radius: 5%;
+margin-bottom: 30px;
+
+}
+.services-contant:hover i{
+  background-color: #0078FF;
+  color: #fff;
+  border-color:#ced4da;
+
+  
+}
+
+.services-one i{
+font-size: 40px;
+border: 12px solid #0078FF;
+border-radius: 50%;
+margin-bottom: 1rem;
+margin-top: 1rem;
+color: #1e1e1e;
+background-color: #fff;
+
+padding: 25px 25px;
+}
+.services-two i{
+    font-size: 40px;
+    border: 12px solid #0078FF;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: #1e1e1e;
+    background-color: #fff;
+    
+    padding: 25px 25px;
+    }
+    /* end SERVICES */
+    /* start count */
+.count{
+    background-image: url('../img/counters-bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+ 
+
+
+  
+
+}
+.count-layer{
+    background-color: rgba(0, 0, 255, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+.count i{
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 15px;
+    border: 12px solid #ffc107;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+
+padding: 15px 15px;
+}
+.count p{
+    color: #fff;
+   
+   
+   
+
+}
+.count h4{
+    color: #fff;
+    font-weight: bold;
+
+    font-size: 24px;
+}
+/* end count */
+/* start work */
+#WORK{
+   
+    padding-top: 50px;
+}
+/* start card */
+.work-contant{
+    width: 100%;
+    
+    
+}
+.card {
+    border-radius: 20px;
+box-shadow: 0 13px 8px -10px rgb(0 ,0 ,0 , 10%);
+}
+.card-one{
+width: 100%;
+display: flex;
+   justify-content: space-evenly;
+ 
+
+}
+
+.card-two{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+ 
+  
+}
+.card img{
+    transition: all 1s;
+}
+#WORK .card:hover img{
+    transform: scale(1.15);
+cursor: pointer;
+}
+#WORK .card i{
+  transform: translate(140px,0);
+    font-size: 45px;
+    color: #0078ff;
+
+}
+.card-title{
+    font-size: 1.2rem;
+    color: #1e1e1e;
+}
+.card-text{
+    font-size: 0.8rem;
+
+}
+.card-text span{
+    color: #0078ff;
+}
+/* end card */
+/* start carousel */
+.carouselPart{
+    background-image: url('../img/overlay-bg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+.carousleLayer{
+    background-color: rgba(0, 0, 255, 0.6);
+
+}
+.carousel-indicators{
+    top: 100%;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+/* end carousel */
+/* <!-- end WORK --> */
+
+/* start BLOG */
+#BLOG{
+    
+    padding-top: 50px;
+}
+/* start blog card */
+.blog-card{
+    width:100% ;
+    display: flex;
+   justify-content: space-evenly;
+}
+.card-small img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.card-small h6{
+   color:  #1e1e1e;
+   padding-top: 5px;
+   transition: all 0.5s ease-in-out;
+}
+.card-small h6:hover{
+    color: #0078FF;
+    cursor: pointer;
+}
+.card-small i{
+    font-size: 18px;
+    margin-right: 5px;
+    padding-top:5px ;
+    color: #4e4e4e;
+}
+.card-small p{
+    color:  #1e1e1e;
+    padding-bottom: 10px;
+}
+.blog-card .card-title{
+    font-size: 1.3rem;
+    transition: all 0.5s ease-in-out;
+    margin-top: 15px;
+}
+.blog-card .card-title:hover{
+color: #0078FF;
+cursor: pointer;
+}
+
+.blog-card .card-text{
+    color: #4e4e4e;
+    font-size: 16px;
+}
+.blog-card .card {
+    position: relative;
+}
+.card h4{
+    text-align: center;
+  color: #fff;
+  background-color:#0078FF ;
+    font-size: 10px;
+    border: 2px solid  #0078FF;
+    border-radius: 8px;
+ padding: 8px;
+ position: absolute;
+bottom: 48%;
+ right: 40%;
+
+}
+/* end blog card */
+/* end blog */
+/* start Contact */
+#Contact{
+
+
+    background-image: url('../img/overlay-bg.jpg');
+    background-size: 100% 100%;
+}
+.contact-layer{
+    background-color: rgba(0, 0, 255, 0.6);
+    height: 80%;
+    width: 100%;
+  display: flex;
+ 
+  
+}
+.contact{
+margin-top: 50px;
+    height: 80%;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  
+}
+/* <!-- start contact left */
+/* start contact input */
+.form-edit input{
+    margin-bottom: 20px;
+}
+.submit .btn{
+    border: 1px solid transparent;
+    border-radius: 30px;
+   background-color: #0078ff;
+   font-size: 18px;
+   margin-top: 20px;
+   margin-bottom: 30px;
+   color: #fff;
+
+padding: 10px 20px;
+}
+.submit .btn:hover{
+    background-color: #D62E33;
+}
+/* end contact input */
+/* <!-- end contact left */
+
+/* <!-- start contact right */
+.contact-write  p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.caption1 i{
+    width: 25px;
+    margin-right: 10px;
+    color: #0078ff;
+}
+.caption1 p{
+color: #1e1e1e;
+
+}
+.social i{
+ margin-right: 5px;
+
+    font-size: 20px;
+    border: 3px solid #0078FF;
+    border-radius: 50% ;
+    text-align: center;
+    padding: 10px 10px;
+  transition: all 1s;
+}
+.social i:hover{
+    background-color: #0078FF;
+    color: #fff;
+}
+/* <!-- end contact right*/
+
+/* end Contact */
+/* start footer */
+.footer{
+    width: 100%;
+  height: 25vh;
+  background-color:dimgray;
+    text-align: center;
+    color: #fff;
+    
+}
+.footer p{
+    padding-top: 30px;
+    font-size: 18px;
+}
+.footer p span{
+    
+    font-size: 20px;
+    transition: all 1s;
+}
+.footer p span:hover{
+color: #1E1E1E;
+cursor: pointer;
+}
+.footer h2{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.footer h2 span{
+    color: #1E1E1E;
+    transition: all 1s;
+  
+}
+.footer h2 span:hover{
+    color: #ffc107;
+    cursor: pointer;
+}
+
+/* end footer */
